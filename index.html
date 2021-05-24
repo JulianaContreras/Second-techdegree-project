@@ -9,11 +9,11 @@
 <body>
     <header>
       <nav>
-      <h1> Juliana Contreras </h1>
+      <h1 id="top"> Juliana Contreras </h1>
       <ul class="top-ul">
-        <li class="home">Home</li>
-        <li class="portfolio"> Portfolio</li>
-        <li class="contact">Contact</li>
+        <li class="home"><a href="#top">Home</a></li>
+        <li class="portfolio"><a href='#portfolio'>Portfolio</a></li>
+        <li class="contact"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
       <div class="clearfix">
@@ -22,7 +22,7 @@
       </div>
     </header>
     <main>
-      <h2 class="heading"> Portfolio</h2>
+      <h2 class="heading" id="portfolio"> Portfolio</h2>
       <div class="containers">
         <div class="portfolio-item">
           <img src="images/Marketing-page.png" alt="Marketing Page" class="img" >
@@ -57,7 +57,7 @@
       </div>
     </main>
     <footer>
-      <h2> Contact </h2>
+      <h2 id="contact"> Contact </h2>
       <p> If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you </p>
       <p> Phone: (510)xxx-xxxx </p>
       <p> Email: blahblah@gmail.com</p>
@@ -67,19 +67,12 @@
       <nav class="footer-nav">
         <h2><a class="back-to-top" href="index.html"> back to top </a></h2>
         <ul class="bottom-ul">
-          <li class="home">Home</li>
-          <li class="portfolio"> Portfolio</li>
-          <li class="contact">Contact</li>
+          <li class="home"><a href="#top">Home</a></li>
+          <li class="portfolio"> <a href="#portfolio">Portfolio</a></li>
+          <li class="contact"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       </div>
     </footer>
   </body>
 </html>
-
-<!--
-- change the background color of header and footer
-- fix the weird floating thingy
-- add a bottom nav for tablet & desktop views (replace Back to Top with full navigation bar)
-- import a google font
-- add clearfix class to elements that have floated children -->
